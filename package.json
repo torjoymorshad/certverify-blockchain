@@ -1,0 +1,30 @@
+{
+  "name": "certverify-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-Based Academic Certificate Verification System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torjoymorshad/certverify-blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/torjoymorshad/certverify-blockchain/issues"
+  },
+  "homepage": "https://github.com/torjoymorshad/certverify-blockchain#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.10",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^22.20.7",
+    "forge-std": "github:foundry-rs/forge-std#v1.17.0",
+    "hardhat": "^3.22.0",
+    "typescript": "~6.0.3",
+    "viem": "^2.58.7"
+  }
+}
